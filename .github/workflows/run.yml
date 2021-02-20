@@ -19,7 +19,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: ${{ secrets.cron }}
+    - cron: 0 12 1 * *
   watch:
     types: [started]
     
