@@ -26,6 +26,7 @@ on:
 jobs:
   run-it:
     runs-on: ubuntu-18.04
+    if: github.event.repository.owner.id == github.event.sender.id
     name: Run it on action
     steps:
       - name: Checkout master
