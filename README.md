@@ -276,11 +276,9 @@ $ cd /data/wwwroot/freenom/ && php run
 
 ![同意启用 Actions](https://s1.ax1x.com/2020/07/09/UeRusP.png "同意启用 Actions")
 
-4、修改项目 README.md 文件内容并提交一次，解决 Github Actions 计划任务的 Bug
+4、同意启用 Actions 后根据下图解除 fork 禁用 Actions(这是GitHub默认的)，然后点击项目的`star`即可启动
 
-![修改 README.md 文件 01](https://s1.ax1x.com/2020/07/09/UeWO39.png "修改 README.md 文件 01")
-
-![修改 README.md 文件 02](https://s1.ax1x.com/2020/07/09/UefEjI.png "修改 README.md 文件 02")
+![解除 fork 禁用 Actions](https://s3.ax1x.com/2021/02/21/yTu0kq.png "解除 fork 禁用 Actions ")
 
 5、查看执行详情
 
